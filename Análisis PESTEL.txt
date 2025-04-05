@@ -1,0 +1,42 @@
+# Análisis PESTEL de Logística Verde Reciclaje RM
+
+def analisis_pestel_reciclaje_rm():
+    pestel = {
+        "Político": [
+            "Incentivos gubernamentales para empresas de economía circular.",
+            "Regulaciones municipales sobre recolección y disposición de residuos.",
+            "Posibilidad de alianzas con entidades estatales para programas ambientales."
+        ],
+        "Económico": [
+            "Costos operativos altos por limitaciones de infraestructura.",
+            "Creciente mercado de materia prima reciclada por parte de la industria.",
+            "Disponibilidad de créditos verdes o financiamiento sostenible."
+        ],
+        "Social": [
+            "Mayor conciencia ciudadana sobre reciclaje y sostenibilidad.",
+            "Oportunidades de inclusión social mediante generación de empleo en comunidades vulnerables.",
+            "Necesidad de campañas educativas para mejorar la cultura del reciclaje."
+        ],
+        "Tecnológico": [
+            "Uso limitado de tecnología por condiciones del espacio, pero con potencial de automatización.",
+            "Disponibilidad de maquinaria para clasificación y procesamiento eficiente.",
+            "Avances en trazabilidad de residuos mediante software de gestión."
+        ],
+        "Ecológico": [
+            "Reducción del impacto ambiental mediante aprovechamiento de residuos.",
+            "Contribución a los Objetivos de Desarrollo Sostenible (ODS).",
+            "Presión por certificaciones ambientales y cumplimiento de estándares ecológicos."
+        ],
+        "Legal": [
+            "Normas sobre manejo y transporte de residuos sólidos.",
+            "Obligatoriedad del registro ante entidades ambientales (como la CRA o el Ministerio de Ambiente).",
+            "Cumplimiento de requisitos para operar como gestor autorizado de residuos."
+        ]
+    }
+
+    for factor, aspectos in pestel.items():
+        print(f"\n🔸 {factor}:\n")
+        for aspecto in aspectos:
+            print(f"  - {aspecto}")
+
+
